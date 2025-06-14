@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoso Outdoor Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contoso Outdoor Company</h1>
+    </header>
+    <section>
+        <h2>Tents</h2>
+        <p>Unfold adventure with Contoso's range of tents</p>
+        <div class="product-grid">
+            <div class="product">
+                <img src="trailmaster-x4-tent.jpg" alt="TrailMaster X4 Tent">
+                <p>TrailMaster X4 Tent</p>
+                <p>$200</p>
+            </div>
+            <div class="product">
+                <img src="alpine-explorer-tent.jpg" alt="Alpine Explorer Tent">
+                <p>Alpine Explorer Tent</p>
+                <p>$300</p>
+            </div>
+            <div class="product">
+                <img src="skyview-2-person-tent.jpg" alt="SkyView 2-Person Tent">
+                <p>SkyView 2-Person Tent</p>
+                <p>$380</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Backpacks</h2>
+        <p>Our backpack category is equipped to accompany you in every twist and turn.</p>
+        <div class="product-grid">
+            <div class="product">
+                <img src="adventurer-pro-backpack.jpg" alt="Adventurer Pro Backpack">
+                <p>Adventurer Pro Backpack</p>
+                <p>$60</p>
+            </div>
+            <div class="product">
+                <img src="summit-climber-backpack.jpg" alt="Summit Climber Backpack">
+                <p>Summit Climber Backpack</p>
+                <p>$70</p>
+            </div>
+            <div class="product">
+                <img src="trailite-daypack.jpg" alt="TrailLite Daypack">
+                <p>TrailLite Daypack</p>
+                <p>$40</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Hiking Clothing</h2>
+        <p>Step into nature with Contoso outdoors hiking clothes</p>
+        <div class="product-grid">
+            <div class="product">
+                <img src="shredder-hoodie.jpg" alt="Shredder Hoodie">
+                <p>Shredder Hoodie</p>
+                <p>$60</p>
+            </div>
+            <div class="product">
+                <img src="trail-blaze-pants.jpg" alt="Trail Blaze Pants">
+                <p>Trail Blaze Pants</p>
+                <p>$80</p>
+            </div>
+            <div class="product">
+                <img src="trekstar-boots.jpg" alt="TrekStar Boots">
+                <p>TrekStar Boots</p>
+                <p>$120</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+<style>
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+
+</style>
+</html>
